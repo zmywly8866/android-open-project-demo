@@ -83,8 +83,12 @@ public class FancyCoverFlowMainActivity extends BaseActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		setContentView(R.layout.activity_fancycoverflow_layout);
 		super.onCreate(savedInstanceState);
+	}
+	
+	@Override
+	public void setContentView() {
+		setContentView(R.layout.activity_fancycoverflow_layout);
 	}
 	
 	@Override
